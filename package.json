@@ -1,9 +1,10 @@
 {
   "devDependencies": {
     "asar": "^0.7.2",
-    "electron-prebuilt": "^0.32.2",
+    "electron-prebuilt": "^0.33.9",
     "fs-jetpack": "^0.7.0",
     "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
     "gulp-less": "^3.0.3",
     "gulp-util": "^3.0.6",
     "q": "^1.4.1",
@@ -22,5 +23,12 @@
     "release": "./node_modules/.bin/gulp release --env=production",
     "start": "node ./tasks/start",
     "test": "node ./tasks/start --env=test"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular-route": "^1.4.7"
   }
 }

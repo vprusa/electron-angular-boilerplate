@@ -10,6 +10,11 @@
     "target": "development"
   },
   "dependencies": {
-    "fs-jetpack": "^0.7.0"
+    "fs-jetpack": "^0.7.0",
+    "angular": "^1.4.7",
+    "angular-animate": "^1.4.7",
+    "angular-aria": "^1.4.7",
+    "angular-material": "^0.11.4",
+    "angular-route": "^1.4.7"
   }
 }
