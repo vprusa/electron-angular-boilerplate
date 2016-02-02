@@ -103,7 +103,7 @@ gulp.task('less', ['clean'], lessTask);
 gulp.task('less-watch', lessTask);
 
 var jadeTask = function() {
-  return gulp.src('./app/templates/*.jade')
+  return gulp.src('./app/templates/**/*.jade')
   .pipe(jade())
   .pipe(gulp.dest(destDir.path('templates')));
 }

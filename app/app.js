@@ -20,6 +20,14 @@ app.config(['$routeProvider', function($routeProvider) {
     controller: 'memoryController',
   });
 
+  $routeProvider.when('/cards', {
+    // html alsoo works directly
+    templateUrl: _templateBase + '/cards.html',
+    controller: function($scope) {
+      $scope.imagePath = 'https://material.angularjs.org/latest/img/washedout.png';
+    }
+  });
+
   $routeProvider.otherwise({ redirectTo: '/' });
 
 }]);
