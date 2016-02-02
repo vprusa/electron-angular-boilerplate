@@ -6,6 +6,14 @@ This is a fork from https://github.com/szwacz/electron-boilerplate.
 
 Check the original [README](https://github.com/szwacz/electron-boilerplate/blob/master/README.md) from electron-boilerplate for more details.
 
+## Howto
+
+    # Install
+    npm install
+
+    # Start
+    npm start
+
 # License
 
 The MIT License (MIT)
